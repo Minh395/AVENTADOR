@@ -20,7 +20,8 @@ body
 {
     margin: 0;
     padding: 0;
-    width: 100vh;    
+    height: 100vh;
+    overflow: hidden;
 }
 .container1
 {
@@ -34,8 +35,8 @@ body
     height: 100px; 
     position: absolute;
     z-index: 1000;
-    bottom: 70px;
-    right: 100px;
+    bottom: 6%;
+    right: 5%;
 }
 .nextpage a img
 {
@@ -52,8 +53,8 @@ body
     height: 100px; 
     position: absolute;
     z-index: 1000;
-    bottom: 70px;
-    left: 150px;
+    bottom: 6%;
+    left: 6%;
 }
 .prevtpage a img
 {
@@ -66,7 +67,7 @@ body
 }
 .header
 {
-    width: 100px;
+    width: 5%;
     height: 100%;
     background-color: rgba(61,61,61,0.3);
     position: fixed;
@@ -76,9 +77,9 @@ body
 .icon
 {
     width: 100%;
-    height: 100px;
+    height: 5%;
     background-color: rgba(61,61,61,0.0);
-    padding: 30px;
+    padding: 30%;
     box-sizing: border-box;
     color: aliceblue;
     
@@ -90,7 +91,7 @@ body
 .header-ngang
 {
     width: 100%;
-    height: 100px;
+    height: 5%;
     background: none;
     position: fixed;
     z-index: 1000;
@@ -99,14 +100,14 @@ body
 .header-ngang0
 {
     width: 40%;
-    height: 100px;
+    height: 100%;
    
     margin: 0 auto;
 }
 .header-ngang1
 {
     width: 40%;
-    height: 100px;
+    height: 100%;
     
     padding-top: 20px;
     padding-left: 0px;
@@ -121,7 +122,7 @@ body
 .header-ngang2
 {
     width: 60%;
-    height: 100px;
+    height: 100%;
     
     padding-top: 13px;
     padding-right: 15px;
@@ -264,7 +265,7 @@ body
 .noidung
 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: rgba(17,17,17,1.00);
     float: left; 
     box-sizing: border-box;
@@ -288,12 +289,12 @@ body
     height: 30%;
     position: absolute;
     z-index: 100;
-    color: rgba(176,176,176,1.00);
+    color: rgba(255,255,255,1.00);
     font-family: tieude1;
     box-sizing: border-box;
-    top: 100px;
-    left: 200px;
-    font-size: 150pt;
+    top: 12%;
+    left: 10.5%;
+    font-size: 130pt;
 }
 .noidung02
 {
@@ -304,8 +305,8 @@ body
     color: rgba(248,248,248,0.9);
     font-family: noidung; 
     box-sizing: border-box;
-    top: 300px;
-    left: 190px;
+    top: 33%;
+    left: 10%;
     font-size: 14pt;
     line-height: 30px;
     
@@ -318,10 +319,11 @@ body
     color: rgba(248,248,248,0.9);
     font-family: noidung; 
     box-sizing: border-box;
-    top: 300px;
+    top: 33%;
     font-size: 14pt;
     line-height: 30px;
-    left: 320px
+    left: 15%;
+    overflow: hidden;
 }
 .noidung02 ul li
 {
@@ -433,8 +435,8 @@ img {
   padding: 2px 16px;
   color: rgba(30,30,30,1.00);
   position: absolute;
-  top: 500px;
-  left: 170px;
+  top: 60%;
+  left: 8%;
   font-family: tieude1; 
   line-height: 35px;
   font-size: 25pt;
@@ -443,12 +445,12 @@ img {
 }
 .row1
 { 
-    width: 850px;
-    height: 500px;
+    width: 50%;
+    height: 60%;
     
     position: absolute;
-    top: -50px;
-    left: 100px;
+    top: -7%;
+    left: 6%;
 }
 .row1:after {
   content: "";
@@ -458,9 +460,9 @@ img {
 /* Six columns side by side */
 .column {
   float: left;
-  width: 200px;
+  width: 23%;
   height: 100%;
-  padding-right: 5px;
+  padding-right: 1%;
    
 }
 
