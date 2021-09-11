@@ -2,17 +2,17 @@
 /* CSS Document */
 @font-face
 {
-    src: url("../font/Roboto-Light.ttf");
+    src: url("../font/OpenSans-Regular.ttf");
     font-family: menufont;      
 }
 @font-face
 {
-    src: url("../font/Roboto-BoldItalic.ttf");
+    src: url("../font/OpenSans-BoldItalic.ttf");
     font-family: tieude1;      
 }
 @font-face
 {
-    src: url("../font/Roboto-Light.ttf");
+    src: url("../font/OpenSans-Light.ttf");
     font-family: noidung;      
 }
 
@@ -305,7 +305,7 @@ body
     color: rgba(248,248,248,0.9);
     font-family: noidung; 
     box-sizing: border-box;
-    top: 33%;
+    top: 36%;
     left: 10%;
     font-size: 14pt;
     line-height: 30px;
@@ -319,7 +319,7 @@ body
     color: rgba(248,248,248,0.9);
     font-family: noidung; 
     box-sizing: border-box;
-    top: 33%;
+    top: 36%;
     font-size: 14pt;
     line-height: 30px;
     left: 15%;
@@ -331,7 +331,7 @@ body
 }
 .button
 {
-    width: 200px;
+    width: 205px;
     height: 50px;
     position: absolute;
     z-index: 100;
@@ -517,6 +517,7 @@ input
     border-radius: 10px;
     background: rgba(61,61,61,0.6);
     outline: none;
+    padding-left: 10px;
 }
 /*galery*/
 .galery0
